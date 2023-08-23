@@ -6,10 +6,16 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    jdbc:
+     lob:
+       non_contextual_creation:
+         true
     properties:
       hibernate:
         format_sql: true
         show_sql: true 
+        dialect:
+          org.hibernate.dialect.PostgreSQLDialect
   sql:
     init:
       mode=always   
