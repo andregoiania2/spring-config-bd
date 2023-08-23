@@ -1,7 +1,7 @@
 spring:
   datasource:
     password: root
-    url: jdbc:postgresql://172.34.0.2:5432/fornecedor
+    url: jdbc:postgresql://172.34.0.2:5434/fornecedor
     username: root
   jpa:
     hibernate:
